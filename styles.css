@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  background-color: #eeeeee;
+  /* background-color: #eeeeee; */
 }
 /* NAVIGATION BAR */
 .navbar {
@@ -114,6 +114,7 @@ a {
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
+  background-color: #eeeeee;;
 }
 
 .image {
@@ -290,19 +291,42 @@ a {
 }
 
 
-/* FORTIFLIO */
+/* PORTIFLIO */
 
 #portifolio {
   width: 100%;
   height: 900px;
-  background-color: rgb(124, 191, 250);
+  background-color: #222831;
 }
 
+/* CONTACT */
+
+#contact {
+  width: 100%;
+  height: 900px;
+  background-color: #eeeeee;;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contact-information {
+  background-color: blue;
+  min-height: 600px;
+  font-size: 2rem;
+}
+
+.contact-form {
+  background-color: red;
+  min-height: 600px;
+  width: 600px;
+}
+ 
 
 
 
-
-
+ 
 
 
 
