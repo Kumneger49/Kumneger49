@@ -1,0 +1,315 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #eeeeee;
+}
+/* NAVIGATION BAR */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #222831;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#menu-toggle,
+#close-toggle {
+  font-size: 2.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+#close-toggle {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-list {
+    background-color: #393e46;
+    width: 15%;
+    height: 100%;
+    padding: 100px 100px 800px;
+    right: -100%;
+    top: -18px;
+    z-index: 1;
+    gap: 0;
+    position: fixed;
+  }
+
+  li > a{
+    z-index: 1;
+  }
+
+}
+
+.show {
+  right: 0;
+}
+
+@media screen and (min-width: 600px) {
+  #close-toggle,
+  #menu-toggle {
+    visibility: hidden;
+  }
+}
+
+.nav-brand {
+  font-size: 2.3rem;
+  font-weight: 700;
+  font-family: candara, sans-serif;
+  cursor: pointer;
+  color: white;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  transition: all 0.5s;
+  transition-timing-function: ease;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+li > a {
+  color: white;
+  position: relative;
+  font-family: sans-serif;
+  transition: color 0.4s;
+  z-index: 1000;
+}
+
+.nav-link:hover, #close-toggle:hover, #menu-toggle:hover {
+  color: #00adb5;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.scrolling-class{
+  position: fixed;
+  color:#222831;
+  width: 100%;
+  background-color: #00adb5;
+  filter: opacity(0.9);
+}
+
+/* MAIN */
+#main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.image {
+  width: 40%;
+  min-width: 400px;
+  height: 900px;
+  background-image: url(photo_2024-01-19_12-32-08.jpg);
+  background-size: 100% 100%;
+}
+
+.bio {
+  width: 40%;
+  min-width: 400px;
+  height: 900px;
+  font: 900 3rem Ubuntu, sans-serif;
+}
+
+.bio-text {
+  margin-top: 300px;
+}
+
+#k {
+  color: #00adb5;
+}
+
+@media screen and (max-width: 849px) {
+  .bio, .image{
+    height: 700px;
+  }
+
+  .bio {
+    position: relative;
+    top: 10px;
+    text-align: center;
+  }
+
+  .bio-text {
+    transform: translateY(-300px);
+  }
+}
+
+/* ABOUT */
+
+#about {
+  height: 900px;
+  background-color: #222831;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.about-image {
+  height: 350px;
+  width: 250px;
+  margin-right: 230px;
+  align-self: center;
+  border-radius: 40px;
+  filter: contrast(0.5);
+  transition: all .3s ease;
+}
+
+.about-image:hover {
+  filter: contrast(1);
+  width: 260px;
+  height: 360px;
+}
+
+.about-text-container{
+  /* background-color: #00adb5; */
+  color:  white;
+  order: -1;
+  align-self: center;
+  /* margin-top: 270px; */
+  min-height: 350px;
+  width: 500px;
+  font: 600 1.2rem  Ubuntu, sans-serif;
+}
+
+.about-text-header {
+  font: 600 2rem  Ubuntu, sans-serif;
+}
+
+.about-text-paragraph{
+  margin-top: 30px;
+  line-height: 1.4;
+}
+
+
+@media screen and (max-width: 1029px) {
+  .about-image{
+    margin-inline: auto;
+    transform: translateY(-150px);
+  }
+}
+
+
+/* SKILLS */
+#skills{
+  height: 900px;
+  background-color: #00adb5;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  /* justify-content: space-around; */
+  /* row-gap: 3rem; */
+}
+
+.skill-left-col{
+  min-height: 350px;
+  width: 500px;
+  height: calc(40% - 40px);
+  /* background-color: bisque; */
+  font: 600 1.5rem  Ubuntu, sans-serif;
+  text-align: justify;
+   
+}
+
+.text-in-skill-left-col{
+  margin: 30px;
+}
+
+.skill-right-col{
+  height: auto;
+  min-height: 300px;
+  max-width: 700px;
+  min-width: 500px;
+  /* margin-right: 230px; */
+  /* background-color: rgb(219, 126, 11); */
+  /* font-size: 2rem; */
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  /* justify-content: space-around; */
+}
+
+.skill-image {
+  margin-inline: 50px;
+  position: relative;
+  width: 100px;
+  background-color: #222831;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+ }
+
+.skill-tooltip{
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 120px;
+  /* background-color: red; */
+  top: -40px;
+  background-color: wheat;
+  border-radius: 5px;
+  font: 700 1.5rem  Ubuntu, sans-serif;
+  visibility: hidden;
+  text-align: center;
+  /* transition: all .2s  ; */
+}
+ 
+
+.skill-image:hover .skill-tooltip{
+  visibility: visible;
+}
+
+
+/* FORTIFLIO */
+
+#portifolio {
+  width: 100%;
+  height: 900px;
+  background-color: rgb(124, 191, 250);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
