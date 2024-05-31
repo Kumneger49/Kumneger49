@@ -147,55 +147,58 @@
 
     <!-- PORTIFOLIO -->
 
-    <section id="portifolio"></section>
+    <!-- <section id="portifolio"></section> -->
 
     <!-- PROTIFOLIO -->
     <section id="contact">
-      
       <div class="contact-information">
-        <div class="contact-header">Got any project? please contact me.</div>
-        <div class="contact-header">
-          Get in touch and let me know how i can help. Fill out the form and
-          i’ll be in touch as soon as possible.
+        <div class="contact-container">
+          <div class="contact-header">Got any project? please contact me.</div>
+          <div class="contact-paragraph">
+            Get in touch and let me know how i can help. Fill out the form and
+            i’ll be in touch as soon as possible.
+          </div>
+          <div class="phone-number-container">
+            <span class="icon"><i class="fa-solid fa-phone"></i></span
+            ><span>Phone number</span>
+            <div class="phone-number">+251949623553</div>
+          </div>
+          <div class="eamil-container">
+            <span class="icon"><i class="fa-solid fa-envelope"></i></span
+            ><span>Email</span>
+            <div class="email">Kumnegermarkos49@gmail.com</div>
+          </div>
         </div>
-        <div class="phone-number">+251949623553</div>
-        <div class="email">Kumnegermarkos49@gmail.com</div>
       </div>
 
       <form class="contact-form" action="">
-
         <div class="form-wrapper">
           <label for="name">Name</label>
           <div class="input-field">
-            <input type="text" name="name" id="name" />
+            <input type="text" placeholder="jhonedoe" class="input" required name="name" id="name" />
           </div>
         </div>
         <div class="form-wrapper">
-          <label for="email">email</label>
+          <label for="email">Email</label>
           <div class="input-field">
-            <input type="text" name="name" id="email" />
+            <input type="email" placeholder="jhonedoe@gmail.com" class="input" required name="email" id="email" />
           </div>
         </div>
         <div class="form-wrapper">
-          <label for="phone-number">phone-number</label>
+          <label for="phone-number">Phone-number</label>
           <div class="input-field">
-            <input type="text" name="name" id="phone-number" />
+            <input type="text" placeholder="+..." class="input" required name="phone-number" id="phone-number" />
           </div>
         </div>
         <div class="form-wrapper">
           <label for="message">Message</label>
           <div class="input-field">
-            <textarea name="message" id="message"></textarea>
+            <textarea class="text-area" name="message" required id="message"></textarea>
           </div>
         </div>
-
-
-
-
-
-
-
-
+        <div class="form-submit-container">
+          <button class="form-submit" type="submit">Submit</button>
+        </div>
       </form>
     </section>
     <script

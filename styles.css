@@ -6,6 +6,10 @@ body {
   margin: 0;
   /* background-color: #eeeeee; */
 }
+
+button{
+  cursor: pointer;
+}
 /* NAVIGATION BAR */
 .navbar {
   display: flex;
@@ -309,18 +313,92 @@ a {
   align-items: center;
   justify-content: center;
   gap: 30px;
+  flex-wrap: wrap;
+  /* margin-top: 30px; */
 }
 
 .contact-information {
-  background-color: blue;
+  /* background-color: blue; */
   min-height: 600px;
-  font-size: 2rem;
+  font-size: 1.4rem;
+  width: 600px;
 }
 
+.contact-paragraph {
+  margin: 20px 0;
+}
+
+.phone-number-container {
+  margin: 20px 0;
+}
+
+.contact-container {
+  margin: 50px 20px;
+}
+
+.contact-header {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+
+
+
+
 .contact-form {
-  background-color: red;
+  /* background-color: red; */
   min-height: 600px;
   width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   justify-content: space-around;
+}
+
+label {
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.input {
+  height: 50px;
+  width: 300px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.text-area {
+  height: 70px;
+  width: 350px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.form-submit {
+  width: 150px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  height: 50px;
+  position: relative;
+  border-radius: 10px;
+  background-color: greenyellow;
+}
+
+.form-submit-container{
+  background-color: #00adb5;
+}
+
+.form-submit-container::before{
+  content: 'dklaj;lk';
+  font-size: 2rem;
+  width: 250px;
+  background-color: blue;
+  height: 100px;
+  /* position: absolute; */
 }
  
 
