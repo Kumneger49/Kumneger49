@@ -388,18 +388,9 @@ label {
   background-color: greenyellow;
 }
 
-.form-submit-container{
-  background-color: #00adb5;
-}
+ 
 
-.form-submit-container::before{
-  content: 'dklaj;lk';
-  font-size: 2rem;
-  width: 250px;
-  background-color: blue;
-  height: 100px;
-  /* position: absolute; */
-}
+ 
  
 
 
