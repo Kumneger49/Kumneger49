@@ -4,7 +4,7 @@
 - 🔭 I’m currently working on **brain-inspired AI at NYUAD’s eBrain Lab**
 - 🌱 I’m learning **AI engineering, recommender systems, and Docker/K8s**
 - 💡 I'm building projects to bridge **education, AI, and Ethiopia**
-- 📫 How to reach me: **kumneger.markos@nyu.edu** | [LinkedIn](https://www.linkedin.com/in/kumneger-markos-74773b258/)
+- 📫 How to reach me: **kmm9570@nyu.edu** | [LinkedIn](https://www.linkedin.com/in/kumneger-markos-74773b258/)
 
 ---
 
