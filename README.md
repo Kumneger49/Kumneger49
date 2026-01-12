@@ -8,11 +8,11 @@ Building production-ready AI systems, agent-based workflows, and ML-powered appl
 ---
 
 ### 👨‍💻 About Me
-- 🔬 AI Engineering & ML Research Intern, working on **end-to-end AI systems and RAG pipelines**
-- 🧠 Experience with **AI agents, applied NLP, and recommendation-style systems**
+- 🔬 AI Engineering & ML Research Intern working on **end-to-end AI systems and RAG pipelines**
+- 🧠 Experience with **AI agents, applied NLP, and ML-powered recommendation-style systems**
 - ⚙️ Strong focus on **production readiness**: FastAPI, async pipelines, Docker, deployment
 - 🌍 Interested in applying AI to **finance, education, and emerging markets**
-- 📫 Reach me at **kmm9570@nyu.edu** | [LinkedIn](https://www.linkedin.com/in/kumneger-markos-74773b258/)
+- 📫 Reach me at **kmm9570@nyu.edu** | <a href="https://www.linkedin.com/in/kumneger-markos-74773b258/">LinkedIn</a>
 
 ---
 
@@ -31,24 +31,21 @@ Building production-ready AI systems, agent-based workflows, and ML-powered appl
 ### 🧠 Featured Projects
 
 - 🧠 **AI Research Assistant (Multi-Agent System)**  
-  Autonomous research assistant built with CrewAI for web scraping, synthesis, and report generation.  
-  → Focus: AI agents, prompt engineering, end-to-end pipelines  
-  🔗 Live demo: https://kumneger49-resourcesuggestusingcrewa-streamlit-app-cloud-xxbzi3.streamlit.app/
+  Autonomous research assistant built with CrewAI for web scraping, synthesis, and report generation  
+  🔗 https://kumneger49-resourcesuggestusingcrewa-streamlit-app-cloud-xxbzi3.streamlit.app/
 
 - 📊 **RAG-Based Question Answering System**  
-  Retrieval-Augmented Generation system using LlamaIndex + Pinecone for semantic search over documents.  
-  → Focus: embeddings, vector databases, scalable retrieval  
+  Retrieval-Augmented Generation system using LlamaIndex + Pinecone for semantic search over documents  
 
 - 📰 **Financial News Intelligence Pipeline**  
-  Real-time pipeline that processes financial news, scores relevance and sentiment, and feeds downstream recommendation services.  
-  → Focus: applied NLP, async processing, product-oriented ML  
+  Real-time pipeline for scoring financial news relevance and sentiment for downstream AI services  
 
 ---
 
 ### 📈 GitHub Stats
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kumneger49&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Kumneger49&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" />
 </p>
 
 ---
