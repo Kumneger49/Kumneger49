@@ -42,14 +42,7 @@ Building production-ready AI systems, agent-based workflows, and ML-powered appl
 
 ---
 
-### 📈 GitHub Stats
-
-<p align="left">
-  <img 
-    src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Kumneger49&show_icons=true&theme=tokyonight&hide_border=true" 
-    alt="GitHub Stats" 
-  />
-</p>
+### 📈 GitHub Stats <p align="left"> <img src="https://github-readme-stats.vercel.app/api?username=Kumneger49&show_icons=true&theme=tokyonight" /> </p>
 
 ---
 
