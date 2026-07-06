@@ -105,7 +105,7 @@ $ cat status.log
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kumneger49&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="150" />
+  <img src="https://streak-stats.demolab.com/?user=Kumneger49&theme=tokyonight&hide_border=true&background=0d1117" height="150" />
 </p>
 
 ---
